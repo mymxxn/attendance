@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "700589188901",
+    "project_id": "alazhar-83202",
+    "storage_bucket": "alazhar-83202.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700589188901:android:ebd6a40576a5a772f41ccc",
+        "android_client_info": {
+          "package_name": "com.example.alazhar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700589188901-2rleaervgkpfor3t0n84rrunk7f6ec80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-MUHk5r337TzoOuw0EyDsbUx93Go87AA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700589188901-2rleaervgkpfor3t0n84rrunk7f6ec80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
