@@ -8,7 +8,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(options: defaultFirebaseOptions);
   SharedPreferences prefs = await SharedPreferences.getInstance();
   String? username = prefs.getString("username");
   runApp(MaterialApp(
@@ -24,3 +24,10 @@ Future main() async {
     ),
   ));
 }
+
+const defaultFirebaseOptions = FirebaseOptions(
+    apiKey: 'AIzaSyD-MUHk5r337TzoOuw0EyDsbUx93Go87AA',
+    databaseURL: 'https://alazhar-83202-default-rtdb.firebaseio.com/',
+    projectId: 'alazhar-83202',
+    appId: '1:700589188901:android:ebd6a40576a5a772f41ccc',
+    messagingSenderId: '');
